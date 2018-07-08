@@ -1,7 +1,7 @@
 var x,y,r,g,b,w=100,inc=0.0015,start=0,h=1,butt,can;
 
 function setup() {
- can=createCanvas(1336,768);
+ can=createCanvas(500,300);
  background(0,40,40);
  y=map(noise(start),0,1,0,height);
  x=width+50;
